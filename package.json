@@ -1,0 +1,32 @@
+{
+  "name": "robot-try-aws",
+  "version": "1.0.0",
+  "description": "robot part's AWS deploy try repository.",
+  "main": "index.js",
+  "scripts": {
+    "up": "sudo docker compose up -d",
+    "down": "sudo docker compose down",
+    "nano:compose": "nano docker-compose.yml",
+    "nano:package": "nano package.json",
+    "axios": "node axios.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glabStrizhkov/robot-try-aws.git"
+  },
+  "keywords": [
+    "robot",
+    "try",
+    "aws"
+  ],
+  "author": "Glab Strizhkov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/glabStrizhkov/robot-try-aws/issues"
+  },
+  "homepage": "https://github.com/glabStrizhkov/robot-try-aws#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.0"
+  }
+}
